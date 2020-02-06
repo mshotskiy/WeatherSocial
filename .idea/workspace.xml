@@ -1,54 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd677369-2cfa-4b76-9355-27413ad18e0d" name="Default Changelist" comment="complete">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/DarkSkyJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/WeatherBitJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/WeatherCharacteristic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/ApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/DarkSkyWeatherApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/OpenWeatherApiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/WeatherBitApiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/5/15434af6cc56cea5cc61561745705867ce97b15e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/272b33f2eb0f5e94fb74dee5395334911a23755d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/305083c2f786f5f71be041864bbb38ba3305af8e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34895f893aa62b3d071dff6245ea023ab498df0e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34895f893aa62b3d071dff6245ea023ab498df0e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c1919e8e850d88620b2aafed4a510b5f490db83" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/774fc8ea98037af659afe38936a230d3f2a32394" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d6273f92689a70112db8dbc325a4907c36b9745" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85de17aceb20810e54efe741726d8cec1ba55225" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b9d60ddfc53e15684ae8f7ac83449795058b2c2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/983648540849e1cf3f94c19471d3b48d4adb3972" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad1b23de03a1d91798aeef5e590d9c8e0a7040fa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad1b23de03a1d91798aeef5e590d9c8e0a7040fa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7d843c5597974d0c00750cba13a82d53c43bd0c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2c92b0f312d59026ce11ee524e1e22d3ef6f54a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc699a6e291b766c5e861bd3d6e49b07700eaed9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e55721ab70e717e7e5ac12c2f1b4095ab4291693" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f68550378bf34e7567d19ad84becf983541570e8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="fd677369-2cfa-4b76-9355-27413ad18e0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/controller/WeatherApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/controller/WeatherApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/dto/WeatherDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/dto/WeatherDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/entity/WeatherApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/entity/WeatherApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/Temperature.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/WeatherInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/OpenWeatherJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/WeatherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/WeatherApiServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/WeatherApiServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/controller/WeatherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/controller/WeatherController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/exceptions/CreateUserException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/exceptions/CreateUserException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/service/impl/WeatherServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/service/impl/WeatherServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weatherApi/controller/WeatherApiController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weatherApi/dto/WeatherDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weatherApi/entity/WeatherApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weatherApi/model/Temperature.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weatherApi/model/WeatherInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weatherApi/repository/WeatherApiRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weatherApi/service/WeatherService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weatherApi/service/impl/WeatherApiServiceImpl.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +149,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -282,7 +236,7 @@
       </method>
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="WeatherHome" />
+      <module name="WeatherProj" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tntu.configuration.*" />
@@ -295,6 +249,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.LoginTest.bedCredentials" />
+      <item itemvalue="JUnit.LoginTest.correctLoginTest" />
+      <item itemvalue="JUnit.LoginTest.loginTest" />
+      <item itemvalue="JUnit.LoginTest.test" />
+      <item itemvalue="Spring Boot.Application" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Application" />
@@ -357,6 +318,7 @@
       <workItem from="1580917197103" duration="242000" />
       <workItem from="1580917852035" duration="15431000" />
       <workItem from="1580981292162" duration="7722000" />
+      <workItem from="1580991404458" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="complete">
       <created>1580411758162</created>
@@ -379,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580414705330</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="complete">
+      <created>1580991500828</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580991500828</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,10 +381,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579777197237" />
-    <state x="274" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580414351420">
+    <state x="274" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580991525972">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="274" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580414351420" />
+    <state x="274" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580991525972" />
     <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1580987854390">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -432,10 +401,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1580743175744" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1580746944259">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1580991499508">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580746944259" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580991499508" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1580412541036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -504,10 +473,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="20" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1580414721545" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1580414469651">
+    <state x="163" y="0" key="SettingsEditor" timestamp="1580991724275">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580414469651" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580991724275" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1580991751937">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580991751937" />
     <state x="548" y="255" width="326" height="234" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1580304282133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -524,10 +497,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580991404443" />
-    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580746933095">
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580991571301">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1580746933095" />
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1580991571301" />
     <state x="65" y="60" key="new project wizard" timestamp="1580467461993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
