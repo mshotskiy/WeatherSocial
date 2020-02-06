@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:th="http://www.thymeleaf.org"
+      layout:decorate="~{fragments/layout}">
+
+<body>
+    <div layout:fragment="content" th:remove="tag">
+        <b th:text="${'Current weather'}"></b><br>
+        <span th:text="${weather.temperature}"></span>
+        <span th:text="${weather.city}"></span>
+    </div>
+</body>
+</html>

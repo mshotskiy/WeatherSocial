@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:th="http://www.thymeleaf.org"  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4"
+      layout:decorate="~{fragments/layout}">
+<body>
+<th:block th:fragment="header">
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" th:href="@{/}">Weather</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" th:href="@{/}">Home </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" th:href="@{/weather}">Weathers </a>
+                    </li>
+                </ul>
+                <div class="navbar-text mr-3" th:unless="${#authentication.name.equals('anonymousUser')}" th:text="${#authentication.name}"></div>
+                <form th:unless="${#authentication.name.equals('anonymousUser')}" th:action="@{/logout}" method="post">
+                    <button class="btn btn-primary" type="submit"  > Sign out </button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+</th:block>
+</body>
+</html>

@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd677369-2cfa-4b76-9355-27413ad18e0d" name="Default Changelist" comment="complete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/DarkSkyJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/WeatherBitJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/WeatherCharacteristic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/ApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/DarkSkyWeatherApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/OpenWeatherApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/WeatherBitApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/5/15434af6cc56cea5cc61561745705867ce97b15e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/272b33f2eb0f5e94fb74dee5395334911a23755d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/305083c2f786f5f71be041864bbb38ba3305af8e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34895f893aa62b3d071dff6245ea023ab498df0e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34895f893aa62b3d071dff6245ea023ab498df0e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c1919e8e850d88620b2aafed4a510b5f490db83" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/774fc8ea98037af659afe38936a230d3f2a32394" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d6273f92689a70112db8dbc325a4907c36b9745" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/85de17aceb20810e54efe741726d8cec1ba55225" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b9d60ddfc53e15684ae8f7ac83449795058b2c2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/8/983648540849e1cf3f94c19471d3b48d4adb3972" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad1b23de03a1d91798aeef5e590d9c8e0a7040fa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad1b23de03a1d91798aeef5e590d9c8e0a7040fa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7d843c5597974d0c00750cba13a82d53c43bd0c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2c92b0f312d59026ce11ee524e1e22d3ef6f54a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc699a6e291b766c5e861bd3d6e49b07700eaed9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e55721ab70e717e7e5ac12c2f1b4095ab4291693" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f68550378bf34e7567d19ad84becf983541570e8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/controller/WeatherApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/controller/WeatherApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/dto/WeatherDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/dto/WeatherDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/entity/WeatherApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/entity/WeatherApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/Temperature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/WeatherInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/OpenWeatherJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/WeatherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/WeatherApiServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/WeatherApiServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/controller/WeatherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/controller/WeatherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/exceptions/CreateUserException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/exceptions/CreateUserException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/service/impl/WeatherServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/service/impl/WeatherServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weatherApi/controller/WeatherApiController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weatherApi/dto/WeatherDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weatherApi/entity/WeatherApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weatherApi/model/Temperature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weatherApi/model/WeatherInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weatherApi/repository/WeatherApiRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weatherApi/service/WeatherService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weatherApi/service/impl/WeatherApiServiceImpl.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="weather: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="weather: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="weather: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="weather: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="weather: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="weather_api: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="weather: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="sequences" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="weather_api: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="weather_api: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WkVw6qKUtk8Olhs9MfiZNJXsxi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/fragments" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Я\IdeaProjects\WeatherHome\src\main\resources\templates\layouts" />
+      <recent name="C:\Users\Я\IdeaProjects\WeatherHome\src\main\resources\templates" />
+      <recent name="C:\Users\Я\IdeaProjects\Weather — копия\src\main\resources\static\style" />
+      <recent name="C:\Users\Я\IdeaProjects\Weather — копия\src\main\resources\static\css" />
+      <recent name="C:\Users\Я\IdeaProjects\Weather — копия\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tntu.weather.api.model" />
+      <recent name="com.tntu.repository" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Я\IdeaProjects\WeatherHome\src\main\resources\templates\fragments" />
+      <recent name="C:\Users\Я\IdeaProjects\WeatherHome\src\main\resources\layouts" />
+      <recent name="C:\Users\Я\IdeaProjects\Weather — копия\src\main\resources\templates" />
+      <recent name="C:\Users\Я\IdeaProjects\Weather\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="LoginTest.bedCredentials" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeatherHome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tntu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tntu" />
+      <option name="MAIN_CLASS_NAME" value="com.tntu.LoginTest" />
+      <option name="METHOD_NAME" value="bedCredentials" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.correctLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeatherHome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tntu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tntu" />
+      <option name="MAIN_CLASS_NAME" value="com.tntu.LoginTest" />
+      <option name="METHOD_NAME" value="correctLoginTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeatherHome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tntu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tntu" />
+      <option name="MAIN_CLASS_NAME" value="com.tntu.LoginTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeatherHome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tntu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tntu" />
+      <option name="MAIN_CLASS_NAME" value="com.tntu.LoginTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="WeatherHome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tntu.configuration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tntu.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.LoginTest.bedCredentials" />
+        <item itemvalue="JUnit.LoginTest.correctLoginTest" />
+        <item itemvalue="JUnit.LoginTest.loginTest" />
+        <item itemvalue="JUnit.LoginTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd677369-2cfa-4b76-9355-27413ad18e0d" name="Default Changelist" comment="" />
+      <created>1579693814280</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579693814280</updated>
+      <workItem from="1579693818237" duration="16753000" />
+      <workItem from="1579769924143" duration="5454000" />
+      <workItem from="1579781278448" duration="683000" />
+      <workItem from="1579791294825" duration="428000" />
+      <workItem from="1579792390802" duration="1554000" />
+      <workItem from="1579794058107" duration="2877000" />
+      <workItem from="1579957779000" duration="2606000" />
+      <workItem from="1579963938344" duration="63000" />
+      <workItem from="1580048685411" duration="2583000" />
+      <workItem from="1580062899144" duration="4648000" />
+      <workItem from="1580068839879" duration="1125000" />
+      <workItem from="1580126600528" duration="13516000" />
+      <workItem from="1580142078995" duration="2585000" />
+      <workItem from="1580203614594" duration="3297000" />
+      <workItem from="1580300319684" duration="4449000" />
+      <workItem from="1580383217876" duration="18717000" />
+      <workItem from="1580411105030" duration="34000" />
+      <workItem from="1580411685282" duration="401000" />
+      <workItem from="1580412341665" duration="281000" />
+      <workItem from="1580414295405" duration="456000" />
+      <workItem from="1580467011982" duration="1040000" />
+      <workItem from="1580469150864" duration="5483000" />
+      <workItem from="1580478718851" duration="585000" />
+      <workItem from="1580488496495" duration="3701000" />
+      <workItem from="1580722963727" duration="5600000" />
+      <workItem from="1580742480411" duration="4260000" />
+      <workItem from="1580750302624" duration="491000" />
+      <workItem from="1580917197103" duration="242000" />
+      <workItem from="1580917852035" duration="15431000" />
+      <workItem from="1580981292162" duration="7722000" />
+    </task>
+    <task id="LOCAL-00001" summary="complete">
+      <created>1580411758162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580411758162</updated>
+    </task>
+    <task id="LOCAL-00002" summary="complete">
+      <created>1580411978801</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580411978801</updated>
+    </task>
+    <task id="LOCAL-00003" summary="complete">
+      <created>1580414705330</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580414705330</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="341" y="0" width="697" height="728" key="#Application" timestamp="1580144933822">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="341" y="0" width="697" height="728" key="#Application/0.0.1366.728@0.0.1366.728" timestamp="1580144933822" />
+    <state x="275" y="23" key="#Inspections" timestamp="1580133629638">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1580133629638" />
+    <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579777197237">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579777197237" />
+    <state x="274" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580414351420">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="274" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580414351420" />
+    <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1580987854390">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1580987854390" />
+    <state x="319" y="290" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1580725830400">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="319" y="290" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1580725830400" />
+    <state x="389" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580981920905">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1580981920905" />
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580743175744">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1580743175744" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1580746944259">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580746944259" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1580412541036">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1580412541036" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1580395927003">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580395927003" />
+    <state width="1323" height="146" key="GridCell.Tab.0.bottom" timestamp="1580990104704">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="146" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580990104704" />
+    <state width="1323" height="146" key="GridCell.Tab.0.center" timestamp="1580990104704">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="146" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580990104704" />
+    <state width="1323" height="146" key="GridCell.Tab.0.left" timestamp="1580990104704">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="146" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580990104704" />
+    <state width="1323" height="146" key="GridCell.Tab.0.right" timestamp="1580990104704">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="146" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580990104704" />
+    <state width="1323" height="146" key="GridCell.Tab.1.bottom" timestamp="1580990104705">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="146" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580990104705" />
+    <state width="1323" height="146" key="GridCell.Tab.1.center" timestamp="1580990104705">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="146" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580990104705" />
+    <state width="1323" height="146" key="GridCell.Tab.1.left" timestamp="1580990104704">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="146" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580990104704" />
+    <state width="1323" height="146" key="GridCell.Tab.1.right" timestamp="1580990104705">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="146" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580990104705" />
+    <state width="1323" height="124" key="GridCell.Tab.2.bottom" timestamp="1580493808296">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="124" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580493808296" />
+    <state width="1323" height="124" key="GridCell.Tab.2.center" timestamp="1580493808296">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="124" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1580493808296" />
+    <state width="1323" height="124" key="GridCell.Tab.2.left" timestamp="1580493808296">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="124" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1580493808296" />
+    <state width="1323" height="124" key="GridCell.Tab.2.right" timestamp="1580493808296">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="124" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1580493808296" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1579718688742">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1579718688742" />
+    <state x="263" y="108" key="IDE.errors.dialog" timestamp="1580746961027">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="108" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1580746961027" />
+    <state x="213" y="20" key="Maven.ArtifactSearchDialog" timestamp="1580414721545">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="20" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1580414721545" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1580414469651">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580414469651" />
+    <state x="548" y="255" width="326" height="234" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1580304282133">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="548" y="255" width="326" height="234" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1580304282133" />
+    <state x="565" y="255" width="295" height="218" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog" timestamp="1580304731658">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="565" y="255" width="295" height="218" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog/0.0.1366.728@0.0.1366.728" timestamp="1580304731658" />
+    <state x="541" y="111" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1580725690222">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="541" y="111" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1366.728@0.0.1366.728" timestamp="1580725690222" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1580981294603">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580981294603" />
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580746933095">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1580746933095" />
+    <state x="65" y="60" key="new project wizard" timestamp="1580467461993">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="60" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1580467461993" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1580473542663">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1580473542663" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580726707775">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580726707775" />
+  </component>
+</project>

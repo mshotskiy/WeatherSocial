@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:th="http://www.thymeleaf.org"
+      layout:decorate="~{fragments/layout}">
+<body>
+<div layout:fragment="content" th:remove="tag">
+
+    <br>
+    <div>List weathers</div>
+    <div class="weather-list">
+<!--        <ul th:each="weather : ${weathers}">-->
+                <div>
+                    <span th:text= "${weathers.temperature}"></span>
+                    <i th:text= "${weathers.city}"></i>
+                </div>
+<!--        </ul>-->
+    </div>
+
+
+<div>
+<!--    <form th:method="post" th:action="weather">-->
+<!--        <button type="submit" name="add" value="1"> Add current weather </button>-->
+<!--    </form>-->
+</div>
+</div>
+</body>
+</html>
