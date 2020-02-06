@@ -25,7 +25,7 @@ public class WeatherApiController {
 
     @GetMapping
     public WeatherDto getWeather(){
-
+        System.out.println("sdadasasd");
         return weatherService.getLastWeather();
     }
 
