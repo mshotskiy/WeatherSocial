@@ -77,10 +77,6 @@ i
 9src/main/java/com/tntu/weather/api/entity/WeatherApi.java,9\4\946cc5ef96a6ac0573e717bb461059c343841fd0
 f
 6src/main/java/com/tntu/weather/api/dto/WeatherDto.java,1\0\10a12c84f92aac6ff8625e59795e1c5a3393dba6
-i
-9src/main/java/com/tntu/weather/api/model/Temperature.java,9\1\91de4479b124dd8f6cfbf3bbeb14e10c74da3c77
-i
-9src/main/java/com/tntu/weather/api/model/WeatherInfo.java,4\6\464f12127362dc91e082f648508924be7531733c
 w
 Gsrc/main/java/com/tntu/weather/api/repository/WeatherApiRepository.java,c\4\c4fa7b839d538fceebe15dcbb0bdaf5430cfab63
 n
