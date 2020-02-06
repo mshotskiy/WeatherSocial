@@ -23,7 +23,7 @@ public class WeatherBitApiService implements ApiService {
         return restTemplate.getForObject(getUri(), WeatherBitJson.class);
     }
 
-    private String getUri(){
+    private String getUri() {
         UriComponentsBuilder uriBuilder = UriComponentsBuilder
                 .fromUriString(Objects.requireNonNull(env.getProperty("weatherbit.api.url")))
                 .queryParam("lat", env.getProperty("city.Ternopil.lat"))

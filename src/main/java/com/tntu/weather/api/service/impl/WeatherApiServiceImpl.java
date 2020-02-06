@@ -17,10 +17,11 @@ import java.util.List;
 @Service
 public class WeatherApiServiceImpl implements WeatherService {
     private WeatherApiRepository apiRepository;
+
     private OpenWeatherApiService openWeatherApiService;
     private DarkSkyWeatherApiService darkSkyWeatherApiService;
     private WeatherBitApiService weatherBitApiService;
-    private WeatherApiRepository weatherApiRepository;
+
     
 
     public WeatherApiServiceImpl(OpenWeatherApiService openWeatherApiService,

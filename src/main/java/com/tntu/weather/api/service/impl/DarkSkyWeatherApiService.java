@@ -20,10 +20,10 @@ public class DarkSkyWeatherApiService implements ApiService {
     }
 
     public DarkSkyJson getWeather() {
-        return restTemplate.getForObject(getUri(),DarkSkyJson.class);
+        return restTemplate.getForObject(getUri(), DarkSkyJson.class);
     }
 
-    private String getUri(){
+    private String getUri() {
         UriComponentsBuilder uriBuilder = UriComponentsBuilder
                 .fromUriString(Objects.requireNonNull(env.getProperty("darksky.api.url")))
                 .pathSegment(env.getProperty("darksky.api.request"))

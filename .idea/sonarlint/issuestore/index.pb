@@ -101,3 +101,5 @@ m
 =src/main/java/com/tntu/weather/api/model/OpenWeatherJson.java,a\e\aec5091c9b93b4a3f143ab14a8051cbb1a8505aa
 j
 :src/main/java/com/tntu/weather/api/service/ApiService.java,6\3\631d82fb31737b6b0359e11f4f3e739e0d944380
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

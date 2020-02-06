@@ -1,13 +1,12 @@
 package com.tntu.weather.api.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonSetter;
 
 import java.util.Map;
 
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class WeatherBitJson implements WeatherCharacteristic{
+public class WeatherBitJson implements WeatherCharacteristic {
     private double temperature;
 
     @Override
@@ -17,7 +16,7 @@ public class WeatherBitJson implements WeatherCharacteristic{
                 '}';
     }
 
-    public void setData(Map<String, Object>[] data){
+    public void setData(Map<String, Object>[] data) {
         this.temperature = Double.parseDouble(data[0].get("temp").toString());
     }
 

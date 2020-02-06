@@ -1,9 +1,0 @@
-
-rsquid:UselessImportCheck"GRemove this unused import 'com.tntu.weather.api.model.OpenWeatherJson'.(°®ƒÁ8·Éß—Å.
-}squid:UselessImportCheck
-"SRemove this unused import 'com.tntu.weather.api.service.impl.WeatherBitApiService'.(´…•38œ‹≥—Å.
-qsquid:UselessImportCheck"FRemove this unused import 'com.tntu.weather.api.model.WeatherBitJson'.(à•ˇ›8ß»¥—Å.
-isquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(Ò£Å≈8ãø”¥Å.
-Çsquid:UselessImportCheck"WRemove this unused import 'com.tntu.weather.api.service.impl.DarkSkyWeatherApiService'.(ã®∞Ê8¡∏¨—Å.
-Ñsquid:UselessImportCheck"TRemove this unused import 'com.tntu.weather.api.service.impl.OpenWeatherApiService'.(ì°Øá˝ˇˇˇˇ8¬…¶—Å.
-ssquid:UselessImportCheck"CRemove this unused import 'com.tntu.weather.api.model.DarkSkyJson'.(ˇŒëŸ˙ˇˇˇˇ8∆ë≠—Å.

@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd677369-2cfa-4b76-9355-27413ad18e0d" name="Default Changelist" comment="">
+    <list default="true" id="fd677369-2cfa-4b76-9355-27413ad18e0d" name="Default Changelist" comment="complete">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d8cc13aad635c2cb3c18ba9d515954d95586002" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d8cc13aad635c2cb3c18ba9d515954d95586002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71ff2957d1a57e564733da607fde7d8ad0cfaecf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71ff2957d1a57e564733da607fde7d8ad0cfaecf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a563d70a430fa96d0dffaa77c88a8843a51a76c5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a563d70a430fa96d0dffaa77c88a8843a51a76c5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/DarkSkyJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/DarkSkyJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/OpenWeatherJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/OpenWeatherJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/WeatherBitJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/WeatherBitJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/WeatherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/DarkSkyWeatherApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/DarkSkyWeatherApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/WeatherApiServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/WeatherApiServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/WeatherBitApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/WeatherBitApiService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,7 +329,8 @@
       <workItem from="1580917197103" duration="242000" />
       <workItem from="1580917852035" duration="15431000" />
       <workItem from="1580981292162" duration="7722000" />
-      <workItem from="1580991404458" duration="308000" />
+      <workItem from="1580991404458" duration="795000" />
+      <workItem from="1581001921430" duration="272000" />
     </task>
     <task id="LOCAL-00001" summary="complete">
       <created>1580411758162</created>
@@ -348,7 +360,35 @@
       <option name="project" value="LOCAL" />
       <updated>1580991500828</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="complete">
+      <created>1580991827939</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1580991827939</updated>
+    </task>
+    <task id="LOCAL-00006" summary="complete">
+      <created>1580991899038</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580991899038</updated>
+    </task>
+    <task id="LOCAL-00007" summary="complete">
+      <created>1580992023768</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580992023768</updated>
+    </task>
+    <task id="LOCAL-00008" summary="complete">
+      <created>1580992187129</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580992187129</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,6 +417,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1580133629638" />
+    <state x="275" y="23" key="#Notifications" timestamp="1580992041858">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1580992041858" />
     <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579777197237">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -385,10 +429,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="274" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580991525972" />
-    <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1580987854390">
+    <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1581002111349">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1580987854390" />
+    <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1581002111349" />
     <state x="319" y="290" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1580725830400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -401,10 +445,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1580743175744" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1580991837453">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1581002320699">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580991837453" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581002320699" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1580412541036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -477,10 +521,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580991724275" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1580991751937">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1580992194475">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580991751937" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580992194475" />
     <state x="548" y="255" width="326" height="234" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1580304282133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -493,10 +537,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="541" y="111" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1366.728@0.0.1366.728" timestamp="1580725690222" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1580991404443">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1581001945631">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580991404443" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581001945631" />
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580991571301">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

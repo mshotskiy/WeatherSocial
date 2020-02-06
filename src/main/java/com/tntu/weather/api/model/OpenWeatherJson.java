@@ -1,7 +1,6 @@
 package com.tntu.weather.api.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonSetter;
 
 import java.util.Map;
 
@@ -11,8 +10,7 @@ public class OpenWeatherJson implements WeatherCharacteristic{
     private double temperature;
     private String name;
 
-    public OpenWeatherJson() {
-    }
+
 
 
     public void setMain(Map<String, String> main) {
@@ -28,11 +26,9 @@ public class OpenWeatherJson implements WeatherCharacteristic{
     }
 
 
-
-
     @Override
     public String toString() {
-        return "WeatherInfo{" +
+        return "OpenWeatherJson{" +
                 "temperature=" + temperature +
                 ", name='" + name + '\'' +
                 '}';
