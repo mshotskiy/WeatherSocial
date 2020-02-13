@@ -9,6 +9,9 @@ import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import java.io.IOException;
+import java.util.Optional;
+
 @PropertySource("classpath:application.properties")
 @Service
 public class WeatherServiceImpl implements WeatherService {
@@ -23,13 +26,13 @@ public class WeatherServiceImpl implements WeatherService {
     }
 
     @Override
-    public Weather getWeatherFromApi() {
+    public Weather getWeatherFromApi() throws IOException {
         return getWeather();
     }
 
 
-    private Weather getWeather() {
-        return restTemplate.getForObject(getUri(), Weather.class);
+    private Weather getWeather() throws IOException {
+        return Optional.ofNullable(restTemplate.getForObject(getUri(), Weather.class)).orElseThrow(IOException::new);
     }
 
 

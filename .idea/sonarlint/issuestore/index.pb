@@ -103,3 +103,15 @@ j
 :src/main/java/com/tntu/weather/api/service/ApiService.java,6\3\631d82fb31737b6b0359e11f4f3e739e0d944380
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+u
+Esrc/main/java/com/tntu/weather/api/exception/JsonIsNullException.java,8\b\8b6bb217b69b6442a17aa8efd9b2ff42c1817678
+h
+8src/main/java/com/tntu/repository/MessageRepository.java,f\6\f655340f5d94ff8426f618b742b9dda02d2a99bc
+Z
+*src/main/java/com/tntu/entity/Message.java,d\3\d31b7abaebde69aee4f3b45c49c98263f1c9e681
+k
+;src/main/java/com/tntu/service/impl/MessageServiceImpl.java,a\9\a963083b4adae50d85a0aeb4663c70402e384c66
+b
+2src/main/java/com/tntu/service/MessageService.java,f\3\f362a04d8acc2b92d961ed30c4e3730feefcf273
+e
+5src/main/java/com/tntu/controller/UserController.java,b\3\b3ff7de7bed02140a1ae089b92a1d83c5c76c563

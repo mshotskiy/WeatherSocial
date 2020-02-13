@@ -15,16 +15,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" th:href="@{/}">Home </a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" th:href="@{/weather}">Weathers </a>
+                        <a class="nav-link" th:href="@{/home}">Home </a>
                     </li>
                 </ul>
-                <div class="navbar-text mr-3" th:unless="${#authentication.name.equals('anonymousUser')}" th:text="${#authentication.name}"></div>
+                <div class="navbar-text mr-3" th:unless="${#authentication.name.equals('anonymousUser')}" th:text="${#authentication.getName()}"></div>
                 <form th:unless="${#authentication.name.equals('anonymousUser')}" th:action="@{/logout}" method="post">
-                    <button class="btn btn-primary" type="submit"  > Sign out </button>
+                    <button class="btn btn-primary m-3" type="submit"  > Sign out </button>
                 </form>
+<!--                <form th:unless="${#authentication.name.equals('anonymousUser')}" th:action="@{/user}" method="get">-->
+<!--                    <button class="btn btn-primary" type="submit"  > User list </button>-->
+<!--                </form>-->
             </div>
         </nav>
     </header>

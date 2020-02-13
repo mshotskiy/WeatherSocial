@@ -26,6 +26,8 @@ public class User implements Serializable, UserDetails {
     private Set<Role> roles;
 
 
+
+
     public long getId() {
         return id;
     }

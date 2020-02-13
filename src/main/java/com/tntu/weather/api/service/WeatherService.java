@@ -4,6 +4,4 @@ import com.tntu.weather.api.dto.WeatherDto;
 
 public interface WeatherService {
     WeatherDto getLastWeather();
-
-
 }

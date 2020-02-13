@@ -9,6 +9,8 @@ import java.util.Map;
 public class DarkSkyJson implements WeatherCharacteristic {
     private double temperature;
 
+    public DarkSkyJson() {
+    }
 
 
     public DarkSkyJson(double temperature) {

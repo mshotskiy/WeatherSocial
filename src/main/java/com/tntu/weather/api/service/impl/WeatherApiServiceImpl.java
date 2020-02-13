@@ -16,26 +16,24 @@ import java.util.List;
 
 @Service
 public class WeatherApiServiceImpl implements WeatherService {
-    private WeatherApiRepository apiRepository;
 
+    private WeatherApiRepository apiRepository;
     private OpenWeatherApiService openWeatherApiService;
     private DarkSkyWeatherApiService darkSkyWeatherApiService;
     private WeatherBitApiService weatherBitApiService;
-
-    
 
     public WeatherApiServiceImpl(OpenWeatherApiService openWeatherApiService,
                                  DarkSkyWeatherApiService darkSkyWeatherApiService,
                                  WeatherBitApiService weatherBitApiService,
                                  WeatherApiRepository weatherApiRepository) {
-        this.apiRepository = weatherApiRepository;
 
+        this.apiRepository = weatherApiRepository;
         this.openWeatherApiService = openWeatherApiService;
         this.darkSkyWeatherApiService = darkSkyWeatherApiService;
         this.weatherBitApiService = weatherBitApiService;
     }
 
-    @Scheduled(fixedRate = 1000 * 60 * 5)
+    @Scheduled(fixedRate = 1000 * 60)
     private void getWeatherFromApi() {
         WeatherApi weatherApi = new WeatherApi();
         List<WeatherCharacteristic> apiServices = getApiServices();
@@ -60,8 +58,8 @@ public class WeatherApiServiceImpl implements WeatherService {
     private int getAvg(double... arrDouble) {
         double sum = 0;
         int length = arrDouble.length;
-        for (int i = 0; i < length; i++) {
-            sum += arrDouble[i];
+        for (double v : arrDouble) {
+            sum += v;
         }
         return (int) sum / length;
     }

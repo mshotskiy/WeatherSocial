@@ -8,8 +8,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import java.util.Map;
-
 @Controller
 public class RegistrationController {
     final UserService userService;
@@ -24,12 +22,12 @@ public class RegistrationController {
     }
 
     @PostMapping("/registration")
-    public String addUser(User user, Map<String, Object> model) {
+    public String addUser(User user) {
         try {
             userService.createUser(user);
         }catch (CreateUserException ex){
             return "redirect:/login";
         }
-        return "weather";
+        return "redirect:/home";
     }
 }

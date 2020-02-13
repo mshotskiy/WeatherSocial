@@ -11,6 +11,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 
 
+
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
@@ -27,17 +28,20 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
         http
                 .authorizeRequests()
-                    .antMatchers("/", "/registration","/api/weather", "/resources/**", "/static/**", "/webjars/**").permitAll()
+                    .mvcMatchers("/", "/registration","/api/weather", "/resources/**", "/static/**", "/webjars/**").permitAll()
                     .anyRequest().authenticated()
                 .and()
                     .formLogin()
                     .loginPage("/login")
-//                    .defaultSuccessUrl("/",true)
+ //                   .defaultSuccessUrl("/",true)
                     .permitAll()
                 .and()
                     .logout()
                     .permitAll();
     }
+
+
+
 
     @Override
     public void configure(WebSecurity web) throws Exception {

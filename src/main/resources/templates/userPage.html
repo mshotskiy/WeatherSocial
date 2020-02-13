@@ -4,24 +4,46 @@
       layout:decorate="~{fragments/layout}">
 <body>
 <div layout:fragment="content" th:remove="tag">
-
     <br>
-    <div>List weathers</div>
-    <div class="weather-list">
-<!--        <ul th:each="weather : ${weathers}">-->
-                <div>
-                    <span th:text= "${weathers.temperature}"></span>
-                    <i th:text= "${weathers.city}"></i>
+    <div>Current weather</div>
+    <div>
+        <span th:text="${weathers.temperature}"></span>
+        <i th:text="${weathers.city}"></i>
+    </div>
+    <br>
+    <div>
+        <form th:method="post" th:action="message">
+            <input type="text" name="text" placeholder="Enter text"/>
+            <input type="text" name="tag" placeholder="Enter tag"/>
+            <button type="submit">Add message</button>
+        </form>
+    </div>
+    <br>
+    <div class="card-columns">
+        <div class="card my-2" th:each="message : ${messages}">
+            <div class="card-body">
+                <h5 class="card-title" th:text="${message.userName}"></h5>
+                <p class="card-text" th:text="${message.text}"></p>
+                <div  th:if="${message.getUserName() == #authentication.name}">
+                    <form th:method="post" th:action="delete">
+                        <button type="submit" class="btn btn-primary" name="id" th:value="${message.getId()}">Delete
+                        </button>
+                    </form>
+                    <a th:href="@{/update}"
+                       class="btn btn-primary">Update</a>
                 </div>
-<!--        </ul>-->
+            </div>
+            <div>
+                <form th:method="post" th:action="update"
+                      th:if="${visible == 'true' and message.getUserName() == #authentication.name}">
+                    <textarea name="text" th:text="${message.getText()}">  </textarea>
+                    <button type="submit" name="messageId" th:value="${message.getId()}">Update</button>
+                </form>
+            </div>
+        </div>
+
     </div>
 
-
-<div>
-<!--    <form th:method="post" th:action="weather">-->
-<!--        <button type="submit" name="add" value="1"> Add current weather </button>-->
-<!--    </form>-->
-</div>
 </div>
 </body>
 </html>

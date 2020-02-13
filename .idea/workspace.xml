@@ -1,19 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd677369-2cfa-4b76-9355-27413ad18e0d" name="Default Changelist" comment="complete">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d8cc13aad635c2cb3c18ba9d515954d95586002" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d8cc13aad635c2cb3c18ba9d515954d95586002" afterDir="false" />
+    <list default="true" id="fd677369-2cfa-4b76-9355-27413ad18e0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/entity/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/repository/MessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/exception/JsonIsNullException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/513ff0126ad9f2ddaaed613990603c0585e8356d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/513ff0126ad9f2ddaaed613990603c0585e8356d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/577c1514fab9f39735f139b56461ef7d64ae2a4b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/577c1514fab9f39735f139b56461ef7d64ae2a4b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71ff2957d1a57e564733da607fde7d8ad0cfaecf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71ff2957d1a57e564733da607fde7d8ad0cfaecf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a4fb097f51c8b66a677be23db828962d0627cc9d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a4fb097f51c8b66a677be23db828962d0627cc9d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5422a2d8b37132cc14d93a4cf00ac03e04455fd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5422a2d8b37132cc14d93a4cf00ac03e04455fd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a563d70a430fa96d0dffaa77c88a8843a51a76c5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a563d70a430fa96d0dffaa77c88a8843a51a76c5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad1b23de03a1d91798aeef5e590d9c8e0a7040fa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad1b23de03a1d91798aeef5e590d9c8e0a7040fa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aec5091c9b93b4a3f143ab14a8051cbb1a8505aa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/e/aec5091c9b93b4a3f143ab14a8051cbb1a8505aa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efbed4ae43a9755fdcb4842a6b2a9e19da66b375" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/efbed4ae43a9755fdcb4842a6b2a9e19da66b375" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/configuration/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/configuration/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/controller/WeatherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/controller/WeatherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/service/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/service/WeatherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/service/impl/WeatherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/service/impl/WeatherServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/DarkSkyJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/DarkSkyJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/OpenWeatherJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/OpenWeatherJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/WeatherBitJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/model/WeatherBitJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/WeatherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/WeatherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/DarkSkyWeatherApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/DarkSkyWeatherApiService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/WeatherApiServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/WeatherApiServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/WeatherBitApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tntu/weather/api/service/impl/WeatherBitApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/WeatherHome.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/configuration/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/configuration/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/controller/RegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/controller/WeatherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/controller/WeatherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/entity/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/service/WeatherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/service/WeatherService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/service/impl/WeatherServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/service/impl/WeatherServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weather/api/controller/WeatherApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/weather/api/controller/WeatherApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weather/api/model/DarkSkyJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/weather/api/model/DarkSkyJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weather/api/model/OpenWeatherJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/weather/api/model/OpenWeatherJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weather/api/model/WeatherBitJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/weather/api/model/WeatherBitJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weather/api/service/WeatherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/weather/api/service/WeatherService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tntu/weather/api/service/impl/WeatherApiServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tntu/weather/api/service/impl/WeatherApiServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/fragments/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/fragments/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userPage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,38 +121,6 @@
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="weather: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="weather_api: table" type="69fad909:PgImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="weather: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="sequences" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="weather_api: database" type="162271b6:PgImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="weather_api: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
     </expand>
     <select />
   </component>
@@ -111,8 +129,8 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -149,7 +167,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ishop" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -157,28 +175,29 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Я\IdeaProjects\WeatherProj\src\main\resources\templates" />
+      <recent name="C:\Users\Я\IdeaProjects\WeatherProj\src\main\resources" />
+      <recent name="C:\Users\Я\IdeaProjects\WeatherHome\src\main\resources\templates\fragments" />
+      <recent name="C:\Users\Я\IdeaProjects\WeatherHome\src\main\resources\layouts" />
+      <recent name="C:\Users\Я\IdeaProjects\Weather — копия\src\main\resources\templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tntu.weather.api.model" />
+      <recent name="com.tntu.repository" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Я\IdeaProjects\WeatherHome\src\main\resources\templates\layouts" />
       <recent name="C:\Users\Я\IdeaProjects\WeatherHome\src\main\resources\templates" />
       <recent name="C:\Users\Я\IdeaProjects\Weather — копия\src\main\resources\static\style" />
       <recent name="C:\Users\Я\IdeaProjects\Weather — копия\src\main\resources\static\css" />
       <recent name="C:\Users\Я\IdeaProjects\Weather — копия\src\main\resources\static" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.tntu.weather.api.model" />
-      <recent name="com.tntu.repository" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Я\IdeaProjects\WeatherHome\src\main\resources\templates\fragments" />
-      <recent name="C:\Users\Я\IdeaProjects\WeatherHome\src\main\resources\layouts" />
-      <recent name="C:\Users\Я\IdeaProjects\Weather — копия\src\main\resources\templates" />
-      <recent name="C:\Users\Я\IdeaProjects\Weather\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
@@ -289,6 +308,9 @@
       </list>
     </option>
   </component>
+  <component name="SpringBootHealthEndpointTabSettings">
+    <option name="healthCheckDelay" value="10000" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -330,7 +352,15 @@
       <workItem from="1580917852035" duration="15431000" />
       <workItem from="1580981292162" duration="7722000" />
       <workItem from="1580991404458" duration="795000" />
-      <workItem from="1581001921430" duration="272000" />
+      <workItem from="1581001921430" duration="3334000" />
+      <workItem from="1581005325241" duration="1055000" />
+      <workItem from="1581170244860" duration="595000" />
+      <workItem from="1581261493431" duration="9497000" />
+      <workItem from="1581346434807" duration="5855000" />
+      <workItem from="1581424711042" duration="4468000" />
+      <workItem from="1581446226347" duration="3585000" />
+      <workItem from="1581526177301" duration="3849000" />
+      <workItem from="1581609114493" duration="11790000" />
     </task>
     <task id="LOCAL-00001" summary="complete">
       <created>1580411758162</created>
@@ -388,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580992187129</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="delete import">
+      <created>1581002391522</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581002391522</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +443,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete" />
+    <MESSAGE value="delete import" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete import" />
   </component>
   <component name="WindowStateProjectService">
     <state x="341" y="0" width="697" height="728" key="#Application" timestamp="1580144933822">
@@ -429,10 +467,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="274" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580991525972" />
-    <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1581002111349">
+    <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1581625529802">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1581002111349" />
+    <state x="488" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1581625529802" />
+    <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581264325594">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="531" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1581264325594" />
     <state x="319" y="290" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1580725830400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -445,66 +487,66 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1580743175744" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1581002320699">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1581002389757">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581002320699" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581002389757" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1580412541036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1580412541036" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1580395927003">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1581612410149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580395927003" />
-    <state width="1323" height="146" key="GridCell.Tab.0.bottom" timestamp="1580990104704">
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581612410149" />
+    <state width="1323" height="130" key="GridCell.Tab.0.bottom" timestamp="1581624874992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="146" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580990104704" />
-    <state width="1323" height="146" key="GridCell.Tab.0.center" timestamp="1580990104704">
+    <state width="1323" height="130" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581624874992" />
+    <state width="1323" height="130" key="GridCell.Tab.0.center" timestamp="1581624874992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="146" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580990104704" />
-    <state width="1323" height="146" key="GridCell.Tab.0.left" timestamp="1580990104704">
+    <state width="1323" height="130" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581624874992" />
+    <state width="1323" height="130" key="GridCell.Tab.0.left" timestamp="1581624874991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="146" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580990104704" />
-    <state width="1323" height="146" key="GridCell.Tab.0.right" timestamp="1580990104704">
+    <state width="1323" height="130" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581624874991" />
+    <state width="1323" height="130" key="GridCell.Tab.0.right" timestamp="1581624874992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="146" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580990104704" />
-    <state width="1323" height="146" key="GridCell.Tab.1.bottom" timestamp="1580990104705">
+    <state width="1323" height="130" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581624874992" />
+    <state width="1323" height="130" key="GridCell.Tab.1.bottom" timestamp="1581624874992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="146" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580990104705" />
-    <state width="1323" height="146" key="GridCell.Tab.1.center" timestamp="1580990104705">
+    <state width="1323" height="130" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581624874992" />
+    <state width="1323" height="130" key="GridCell.Tab.1.center" timestamp="1581624874992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="146" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580990104705" />
-    <state width="1323" height="146" key="GridCell.Tab.1.left" timestamp="1580990104704">
+    <state width="1323" height="130" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1581624874992" />
+    <state width="1323" height="130" key="GridCell.Tab.1.left" timestamp="1581624874992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="146" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580990104704" />
-    <state width="1323" height="146" key="GridCell.Tab.1.right" timestamp="1580990104705">
+    <state width="1323" height="130" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1581624874992" />
+    <state width="1323" height="130" key="GridCell.Tab.1.right" timestamp="1581624874992">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="146" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580990104705" />
-    <state width="1323" height="124" key="GridCell.Tab.2.bottom" timestamp="1580493808296">
+    <state width="1323" height="130" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1581624874992" />
+    <state width="1323" height="209" key="GridCell.Tab.2.bottom" timestamp="1581610781615">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="124" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580493808296" />
-    <state width="1323" height="124" key="GridCell.Tab.2.center" timestamp="1580493808296">
+    <state width="1323" height="209" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581610781615" />
+    <state width="1323" height="209" key="GridCell.Tab.2.center" timestamp="1581610781614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="124" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1580493808296" />
-    <state width="1323" height="124" key="GridCell.Tab.2.left" timestamp="1580493808296">
+    <state width="1323" height="209" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1581610781614" />
+    <state width="1323" height="209" key="GridCell.Tab.2.left" timestamp="1581610781614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="124" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1580493808296" />
-    <state width="1323" height="124" key="GridCell.Tab.2.right" timestamp="1580493808296">
+    <state width="1323" height="209" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1581610781614" />
+    <state width="1323" height="209" key="GridCell.Tab.2.right" timestamp="1581610781614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="124" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1580493808296" />
+    <state width="1323" height="209" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1581610781614" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1579718688742">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -517,18 +559,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="20" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1580414721545" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1580991724275">
+    <state x="469" y="76" key="RollbackChangesDialog" timestamp="1581424814773">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580991724275" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1580992194475">
+    <state x="469" y="76" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1581424814773" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1581346501450">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580992194475" />
-    <state x="548" y="255" width="326" height="234" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1580304282133">
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581346501450" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1581002402311">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="548" y="255" width="326" height="234" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1580304282133" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581002402311" />
+    <state x="548" y="255" width="326" height="234" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1581528915338">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="548" y="255" width="326" height="234" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1366.728@0.0.1366.728" timestamp="1581528915338" />
     <state x="565" y="255" width="295" height="218" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog" timestamp="1580304731658">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -537,10 +583,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="541" y="111" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1366.728@0.0.1366.728" timestamp="1580725690222" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1581001945631">
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1581609229880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581001945631" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1581609229880" />
     <state x="492" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580991571301">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -549,13 +595,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="60" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1580467461993" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1580473542663">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1581353448793">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1580473542663" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1581353448793" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580726707775">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580726707775" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/WeatherProj$Application.ic" NAME="Application Coverage Results" MODIFIED="1581528381248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.tntu.configuration.*</FILTER>
+    </SUITE>
   </component>
 </project>

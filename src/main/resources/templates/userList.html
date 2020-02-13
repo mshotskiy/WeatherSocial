@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:th="http://www.thymeleaf.org"
+      layout:decorate="~{fragments/layout}">
+<body>
+<div layout:fragment="content" th:remove="tag">
+
+    User list
+    <div class="weather-list">
+        <ul th:each="user : ${users}">
+            <div>
+                <span th:text="${user.username}"></span>
+                <i th:each="role : ${user.roles}" th:text="${role} "> </i>
+                <a th:href="@{user/${user.id}}">edit</a>
+            </div>
+        </ul>
+    </div>
+
+</div>
+</body>
+</html>
